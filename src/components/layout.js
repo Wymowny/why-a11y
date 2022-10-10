@@ -9,6 +9,7 @@ const Layout = ({ location, title, children }) => {
   if (isRootPath) {
     header = (
       <h1 className="main-heading">
+        <img src="logo.png" alt="WhyA11Y logo" className="header-logo" />
         <Link to="/">{title}</Link>
       </h1>
     )
@@ -25,9 +26,9 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
+        © {new Date().getFullYear()},
         {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+        <a href="https://malewski.pl">mzalewski.pl</a>
       </footer>
     </div>
   )

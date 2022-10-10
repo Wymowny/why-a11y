@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "why-a11y",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "We want to create high quality, accessible websites, and not exclude anyone from web!",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Marcin Zalewski <zalewski.mrc@gmail.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },

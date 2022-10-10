@@ -331,3 +331,8 @@ a:focus {
     list-style-position: inside;
   }
 }
+
+.header-logo {
+  display: block;
+  margin-bottom: 20px;
+}
